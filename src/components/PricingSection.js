@@ -17,29 +17,29 @@ function PricingSection(props) {
     {
       id: "starter",
       name: "Starter",
-      price: "10",
+      price: "0",
       perks: [
         "Lorem ipsum dolor sit amet",
         "Consectetur adipiscing elit",
-        "Integer molestie lorem at massa",
-      ],
+        "Integer molestie lorem at massa"
+      ]
     },
     {
       id: "pro",
       name: "Pro",
-      price: "20",
+      price: "1",
       perks: [
         "Lorem ipsum dolor sit amet",
         "Consectetur adipiscing elit",
         "Integer molestie lorem at massa",
         "Faucibus porta lacus fringilla vel",
-        "Aenean sit amet erat nunc",
-      ],
+        "Aenean sit amet erat nunc"
+      ]
     },
     {
       id: "business",
       name: "Business",
-      price: "50",
+      price: "5",
       perks: [
         "Lorem ipsum dolor sit amet",
         "Consectetur adipiscing elit",
@@ -47,9 +47,9 @@ function PricingSection(props) {
         "Faucibus porta lacus fringilla vel",
         "Aenean sit amet erat nunc",
         "Lorem ipsum dolor sit amet",
-        "Consectetur adipiscing elit",
-      ],
-    },
+        "Consectetur adipiscing elit"
+      ]
+    }
   ];
 
   return (
